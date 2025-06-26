@@ -1,1 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us - Parental Alienation Support</title>
+  <style>
+    body {
+      font-family: 'Helvetica Neue', sans-serif;
+      background: #ffffff;
+      color: #1a1a1a;
+      margin: 0;
+    }
+    header {
+      background: #0d1b2a;
+      color: white;
+      padding: 1.5rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    nav a {
+      color: white;
+      margin-left: 1.5rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .content {
+      max-width: 700px;
+      margin: 3rem auto;
+      padding: 0 2rem;
+    }
+    h1 {
+      color: #0d1b2a;
+      margin-bottom: 1rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+    label {
+      margin-top: 1rem;
+      font-weight: 600;
+    }
+    input, select, textarea {
+      padding: 0.8rem;
+      font-size: 1rem;
+      margin-top: 0.3rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    textarea {
+      min-height: 120px;
+    }
+    button {
+      margin-top: 2rem;
+      background: #f4c430;
+      color: #0d1b2a;
+      padding: 0.8rem 1.5rem;
+      border: none;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      align-self: start;
+    }
+    .info {
+      margin-top: 3rem;
+      font-size: 0.95rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1.5rem;
+      background: #f4f4f4;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>Parental Alienation Support</strong></div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="resources.html">Resources</a>
+      <a href="get-involved.html">Get Involved</a>
+    </nav>
+  </header>
 
+  <div class="content">
+    <h1>Contact Us</h1>
+    <p>If you have questions, need guidance, or want to connect, we’re here for you. Fill out the form below or reach out directly.</p>
+
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="subject">Subject</label>
+      <select id="subject" name="subject">
+        <option value="general">General Inquiry</option>
+        <option value="volunteer">Volunteer Opportunities</option>
+        <option value="resources">Resource Help</option>
+        <option value="media">Media or Press</option>
+      </select>
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+
+    <div class="info">
+      <p><strong>Email:</strong> support@yourdomain.org</p>
+      <p><strong>Follow us:</strong> [Facebook] [Instagram] [LinkedIn]</p>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Parental Alienation Support. All rights reserved.
+  </footer>
+</body>
+</html>
